@@ -1,5 +1,8 @@
-package Godis;
-public class Godis {
+package Produkt.Godis;
+
+import Produkt.Produkt;
+
+public class Godis extends Produkt {
 
     private String taste; 
     private int amount; 

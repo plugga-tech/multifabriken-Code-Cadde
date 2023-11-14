@@ -1,5 +1,8 @@
-package Rör;
-public class Ror {
+package Produkt.Rör;
+
+import Produkt.Produkt;
+
+public class Ror extends Produkt{
     private double diameter; 
     private double length; 
 

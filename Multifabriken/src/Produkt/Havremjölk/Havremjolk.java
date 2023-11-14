@@ -1,5 +1,8 @@
-package Havremjölk;
-public class Havremjolk {
+package Produkt.Havremjölk;
+
+import Produkt.Produkt;
+
+public class Havremjolk extends Produkt {
     private double lAmount;
     private double fat; 
 

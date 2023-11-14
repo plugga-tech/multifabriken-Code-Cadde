@@ -1,14 +1,18 @@
-package Bilar;
-public class Bilar {
+package Produkt.Bilar;
+
+import Produkt.Produkt;
+
+public class Bilar extends Produkt {
 
     private String reg; 
     private String color; 
     private String brand; 
 
-    public Bilar(String reg, String color, String brand) {
+    public Bilar(String reg, String color, String brand, int price) {
         this.reg =  reg; 
         this.color = color; 
-        this.brand = brand; 
+        this.brand = brand;
+        this.price = price;
     }
 
     public String getReg() {
