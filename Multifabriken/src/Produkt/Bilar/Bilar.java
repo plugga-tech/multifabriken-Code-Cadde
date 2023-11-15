@@ -8,11 +8,15 @@ public class Bilar extends Produkt {
     private String color; 
     private String brand; 
 
-    public Bilar(String reg, String color, String brand, int price) {
+    public Bilar(String reg, String color, String brand) {
         this.reg =  reg; 
         this.color = color; 
         this.brand = brand;
-        this.price = 300000;
+        this.price = 300000; 
+    }
+
+    public int getPrice() {
+        return price;
     }
 
     public String getReg() {

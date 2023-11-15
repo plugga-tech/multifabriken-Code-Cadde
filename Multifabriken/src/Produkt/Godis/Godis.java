@@ -9,8 +9,11 @@ public class Godis extends Produkt {
 
     public Godis (String taste, int amount) {
         this.taste = taste; 
-        this.amount = amount;
-        this.price = 50; 
+        this.amount = amount; 
+    }
+
+    public int getPrice() {
+        return price;
     }
 
     public String getTaste() {
