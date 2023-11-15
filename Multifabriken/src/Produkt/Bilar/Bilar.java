@@ -12,7 +12,7 @@ public class Bilar extends Produkt {
         this.reg =  reg; 
         this.color = color; 
         this.brand = brand;
-        this.price = price;
+        this.price = 300000;
     }
 
     public String getReg() {

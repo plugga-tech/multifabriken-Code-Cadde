@@ -9,6 +9,7 @@ public class Ror extends Produkt{
     public Ror (double diameter, double length) {
         this.diameter = diameter; 
         this.length = length; 
+        this.price = 100; 
     }
 
     public double getDiameter() {

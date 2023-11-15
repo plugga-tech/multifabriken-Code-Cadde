@@ -9,6 +9,7 @@ public class Havremjolk extends Produkt {
     public Havremjolk (double lAmount, double fat) {
         this.lAmount = lAmount;
         this.fat = fat; 
+        this.price = 20; 
     }
 
     public double getlAmount() {
