@@ -20,6 +20,7 @@ public class App {
             System.out.println("3. Rör");
             System.out.println("4. Havremjölk");
             System.out.println("5. Lista ut din beställning");
+            System.out.println("6. Avsluta program! ");
 
             System.out.print("Ange ditt val: ");
             choice = scanner.nextInt(); 
@@ -43,7 +44,7 @@ public class App {
 
             case 2:
             System.out.println("Ange smak: ");
-            String taste = scanner.nextLine();
+            String taste = scanner.next();
             scanner.nextLine();
 
             System.out.println("Ange mängd: ");

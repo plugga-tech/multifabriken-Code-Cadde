@@ -10,6 +10,7 @@ public class Godis extends Produkt {
     public Godis (String taste, int amount) {
         this.taste = taste; 
         this.amount = amount; 
+        this.price = 100; 
     }
 
     public int getPrice() {
